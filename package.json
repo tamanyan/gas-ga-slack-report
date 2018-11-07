@@ -6,17 +6,19 @@
   "scripts": {
     "push": "clasp push",
     "watch": "clasp push --watch",
-    "run": "clasp run '$1'"
+    "run": "clasp run '$1'",
+    "clasp_login": "clasp login",
+    "clasp_logout": "clasp logout"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@google/clasp": "^1.5.3",
+    "@google/clasp": "^1.6.3",
     "tslint": "^5.11.0",
     "tslint-microsoft-contrib": "^5.2.1"
   },
   "dependencies": {
-    "@types/google-apps-script": "0.0.27"
+    "@types/google-apps-script": "0.0.31"
   }
 }
