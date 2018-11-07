@@ -1,0 +1,5 @@
+{
+  "scriptId":"<your-script-id>",
+  "rootDir": "src",
+  "projectId": "<your-project-id>"
+}

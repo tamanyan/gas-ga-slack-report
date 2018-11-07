@@ -1,0 +1,22 @@
+{
+  "name": "gas-ga-slack-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "push": "clasp push",
+    "watch": "clasp push --watch",
+    "run": "clasp run '$1'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google/clasp": "^1.5.3",
+    "tslint": "^5.11.0",
+    "tslint-microsoft-contrib": "^5.2.1"
+  },
+  "dependencies": {
+    "@types/google-apps-script": "0.0.27"
+  }
+}

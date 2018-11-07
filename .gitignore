@@ -1,0 +1,29 @@
+.DS_Store
+
+# dependencies
+node_modules
+
+# public
+public
+
+# logspa
+npm-debug.log
+firebase-debug.log
+yarn-error.log
+
+# build
+dist/
+
+# .env
+.env
+
+# vscode
+.vscode
+
+# firebase
+.firebase
+
+# jest
+coverage/
+
+.clasp.json
